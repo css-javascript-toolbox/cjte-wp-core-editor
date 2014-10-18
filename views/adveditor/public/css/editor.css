@@ -1,0 +1,90 @@
+#cjteape-newcontent {height: 600px; width: auto; position: relative;}
+#newcontent {display: none;}
+#template div {margin-right: 0 !important;}
+
+.inside-container {position: relative;}
+.ace_status-indicator {
+	position: absolute;
+	left: 137px;
+	top: 6px;
+	color: red;
+	font-size: 18px;
+	padding: 4px 10px;
+}
+
+#dummy-block-container {background-color: #f1f1f1 !important;}
+
+/** Editor Toolbox */
+.cjt-toolbox.editor-toolbox {
+	position: relative;
+	float: right;
+	width: 40px;
+	top: 5px;	
+	margin-left: 10px;
+	display: none;
+	margin-top: 24px;
+}
+
+.cjt-tb-link {height: 22px;display: inline-block;width: 20px;}
+
+.cjt-toolbox .icons-group .popup-menu {z-index: 7;}
+#block-menu {
+	position: static !important;
+	padding: 5px !important;
+	display: none;
+	margin-top: 4px !important; 
+}
+
+#block-menu ul {z-index: 5;}
+#cjt-inline-popup {display: none;}
+
+span#dummy-block-container.fullscreen {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 999999;
+}
+#dummy-block-container.fullscreen #cjteape-newcontent {height: 100%;}
+
+#ace_settingsmenu{z-index: 1000000 !important;}
+span#dummy-block-container.fullscreen #block-menu {margin-top: 0 !important;}
+div#templateside {width: 395px !important;margin-top: 11px;margin-left: 5px;}
+div#cjtewce-root-files-list {
+    border: 1px solid #e1e1e1;
+    margin-right: 30px;
+    padding: 15px;
+    overflow: scroll;
+    height: 588px;
+}
+#cjtewce-root-files-list ul {margin: 0 20px;padding: 0;width: 100%; }
+#cjtewce-root-files-list ul li {margin: 0;padding: 0;}
+#cjtewce-root-files-list ul li a {padding: 0;}
+
+.cjtewce-item-directory {list-style-type: disc;}
+.cjtewce-item-file {list-style-type: circle;}
+
+.in-edit-file {color: gray;}
+#cjtewce-body {margin-top: 10px;}
+
+h2#file-name {padding: 6px 9px; background-color: rgb(15, 150, 15); border: 1px solid rgb(37, 121, 187); margin-right: 28px; color: white;}
+
+div#operation-status {
+	visibility: hidden;
+	background-color: white;
+	font-size: 16px;
+	color: red;
+	letter-spacing: 5px;
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	top: 1px;
+	padding: 1px 49px;
+	border: 1px solid rgb(193, 193, 220);
+}
+
+div#operation-status  a.closeButton {visibility: hidden; display: inline-block; width: 8px; height: 8px; background-color: green; position: absolute; right: 2px;}
+
+#file-name.changed {color: red;}
+#file-name.changed:after {content: ' *';}

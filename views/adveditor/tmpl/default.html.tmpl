@@ -1,0 +1,25 @@
+<div id="cjtewce-body">
+	<div id="file-info">
+		<h2 id="file-name"><?php echo $this->defaultFile ?></h2>
+	</div>
+	<div id="templateside">
+		<div id="cjtewce-root-files-list">
+			<ul class="root-item"><li class="cjtewce-item-directory"></li></ul>
+		</div>
+	</div>
+	<div>
+		<form name="template" id="template" method="post">
+			<div>
+				<textarea cols="70" rows="25" name="newcontent" id="newcontent" aria-describedby="newcontent-description"></textarea>
+				<input type="hidden" name="file" value="<?php echo $this->defaultFile ?>" />
+			</div>
+			<p class="submit">
+				<input type="button" name="submit" id="submit" class="button button-primary" value="Update File"  />
+			</p>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+	var wpCoreFilesList = <?php echo $this->filesList ?>;
+	var directorySeparator = '\<?php echo DIRECTORY_SEPARATOR ?>';;
+</script>
