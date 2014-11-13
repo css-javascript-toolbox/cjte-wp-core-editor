@@ -3,7 +3,4 @@
 	<getInvolved>
 		<event type="CJTPlugin.load" />
 	</getInvolved>
-	<license title="Wordpress Core Editor" updateSrc="CJT">
-		<name text="Premium">Wordpress Core Editor</name>
-	</license>
 </extension>
