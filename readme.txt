@@ -1,4 +1,4 @@
-=== WP Core Editor ===
+=== CJTe WP Core Editor ===
 Contributors: wipeoutmedia
 Author URL: http://css-javascript-toolbox.com
 Tags: plugins, core editor, editor, WordPress core, core files, development, cjt, cjte, syntax, highlight, error checker
