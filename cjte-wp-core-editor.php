@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: CJTe Wordpress Core Editor
+Plugin Name: CJTe WP Core Editor
 Plugin URI: http://css-javascript-toolbox.com/extensions/wordpress-core-editor
 Description: CJT-Extension plugin for turning Regular Wordpress Plugins editor into CJT Advanced plugins editor.
 Version: 0.5

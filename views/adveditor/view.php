@@ -119,13 +119,13 @@ class CJTEWCEAdvEditorView extends CJTView {
 			'framework:js:cookies:{CJT-}jquery.cookies.2.2.0',
 			'framework:js:ui:{CJT-}jquery.toolbox',
 			'views:blocks:block:public:js:plugins:{CJT-}_dockmodule',
-			'extension://cjte-wpcore-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_dummycjtblock',
-			'extension://cjte-wpcore-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_extensiondefinition',
-			'extension://cjte-wpcore-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_fileslist.jquery',
-			'extension://cjte-wpcore-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_fileslist',
+			'extension://cjte-wp-core-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_dummycjtblock',
+			'extension://cjte-wp-core-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_extensiondefinition',
+			'extension://cjte-wp-core-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_fileslist.jquery',
+			'extension://cjte-wp-core-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_fileslist',
 		));
 		# Editor MAIN/CORE/LOADER module must be the latest script to run
-		$allScripts[] = 'extension://cjte-wpcore-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_editor';
+		$allScripts[] = 'extension://cjte-wp-core-editor/views:adveditor:public:js:{CJTEWCE_Views_AdvEditor_View-}_editor';
 		# Use related scripts.
 		self::useScripts(__CLASS__, $allScripts);
 	}
@@ -139,7 +139,7 @@ class CJTEWCEAdvEditorView extends CJTView {
 		$allStyles = CJTBlocksBlockView::trigger('CJTBlocksBlockView.usestyles', array(
 			'thickbox',
 			'framework:css:{CJT-}toolbox',
-			'extension://cjte-wpcore-editor/views:adveditor:public:css:{CJTEWCE_Views_AdvEditor_View-}editor'
+			'extension://cjte-wp-core-editor/views:adveditor:public:css:{CJTEWCE_Views_AdvEditor_View-}editor'
 		));
 		# Initialize style.
 		self::useStyles(__CLASS__, $allStyles);

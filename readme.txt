@@ -15,7 +15,7 @@ The WP Core Editor extension plugin for CJT gives you all the tools for editing 
 
 == Installation ==
 1. Install and Activate the [CJT Plugin](http://wordpress.org/plugins/css-javascript-toolbox/)
-2. Install/Upload and then Activate the cjte-wpcore-editor.zip file using the WordPress Plugin uploader
+2. Install/Upload and then Activate the cjte-wp-core-editor.zip file using the WordPress Plugin uploader
 
 == Frequently Asked Questions ==
 = How do I change themes for the Plugins Editor? =
