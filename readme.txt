@@ -1,4 +1,4 @@
-=== CJTe WP Core Editor ===
+=== WP Core Editor ===
 Contributors: wipeoutmedia
 Author URL: http://css-javascript-toolbox.com
 Tags: plugins, core editor, editor, WordPress core, core files, development, cjt, cjte, syntax, highlight, error checker
@@ -15,11 +15,20 @@ The WP Core Editor extension plugin for CJT gives you all the tools for editing 
 
 == Installation ==
 1. Install and Activate the [CJT Plugin](http://wordpress.org/plugins/css-javascript-toolbox/)
-2. Install/Upload and then Activate the cjte-wp-core-editor.zip file using the WordPress Plugin uploader
+2. Install/Upload and then Activate the cjte-wpcore-editor.zip file using the WordPress Plugin uploader
 
 == Frequently Asked Questions ==
-= How do I change themes for the Plugins Editor? =
-You would need to install and activate the Editor Themes extension plugin
+= How do I change themes for the Wordpress Core Editor? =
+You would need to purchase, install and activate the CJT Developer plugin.
+
+= How do I get the toolbar icons to show for the Wordpress Core Editor? =
+You would need to purchase, install and activate the CJT Developer plugin.
+
+= How do I get the Code Auto Completion feature to work for the Wordpress Core Editor? =
+You would need to purchase, install and activate the CJT Developer plugin. To use this feature on either a Mac or a PC, the hot-key combination is Control + Space (i.e. Ctrl + Space bar)
+
+== Screenshots ==
+1. WP Core Editor
 
 == Changelog ==
 = 0.5 =
